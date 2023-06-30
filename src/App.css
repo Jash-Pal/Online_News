@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::before, 
+*::after {
+  box-sizing: border-box;
+}
+
+h1,h6{
+  margin: 1em 0;
+  font-family: 'Roboto Condensed', sans-serif;
+ }
+/* Navigation */
+.containerr{
+  background-color: gray;
+  
+}
+
+.roww{
+  padding: .20em 0;
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  position: sticky;
+}
+
+a{
+  text-decoration: none;
+  padding: .30em;
+  color: #5e0808;
+}
+
+li{
+  list-style: none;
+  padding: .20em;
+  margin: .40em;
+  background-color: #f5ffa3;
+}
+
+.flexx-roww{
+  display: flex;
+  flex-flow: row;
+}
+
+/* NewsComponents */
+img{
+  width: 120px;
+}
+
+.flexx{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media all and (max-width: 1000px){
+
+  .containerr{
+    background-color: grey;
+    min-width: 90vh;
+    margin: 0;
+  }
+
+  .roww{
+    padding: .50em 0 .20em 0;
+    margin: .200em;
+    max-width: 30%;
+    margin: auto;
+  }
+
+
+  
+  .logo{
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .flexx-roww li{
+    list-style: none;
+    padding: .40em 1em;
+
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* utilities */
+.flexx{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
